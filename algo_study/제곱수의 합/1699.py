@@ -20,9 +20,8 @@ for i in range(2, n+10):
 
         j += 1
 
-
 print(dp[n])
-print(dp)
+# print(dp)
 
 
 
