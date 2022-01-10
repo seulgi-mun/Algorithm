@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5654a865-b339-492a-bffb-8caf49a958e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/제곱수의 합/1699.py" beforeDir="false" afterPath="$PROJECT_DIR$/제곱수의 합/1699.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1로 만들기/1463.py" beforeDir="false" afterPath="$PROJECT_DIR$/1로 만들기/1463.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,48 +15,49 @@
     <session id="-417315541">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
-          <entry key="txt" value="19" />
+          <entry key="py" value="14" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="13" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4127" />
+          <entry key="py" value="4336" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="4127" />
+          <entry key="Python" value="4336" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8035714">
+    <splitter split-orientation="horizontal" split-proportion="0.8469055">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/2의 제곱수 계산하기/19946.py">
+            <entry file="file://$PROJECT_DIR$/1로 만들기/1463.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+                <state relative-caret-position="240">
+                  <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -66,10 +67,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/2의 제곱수 계산하기/input.txt">
+            <entry file="file://$PROJECT_DIR$/1로 만들기/input.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="20" selection-start-column="20" selection-end-column="20" />
+                  <caret column="2" selection-start-column="2" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -104,15 +105,15 @@
         <option value="$PROJECT_DIR$/계단 오르기/2579.py" />
         <option value="$PROJECT_DIR$/제곱수의 합/1699.py" />
         <option value="$PROJECT_DIR$/1로 만들기/input.txt" />
-        <option value="$PROJECT_DIR$/1로 만들기/1463.py" />
         <option value="$PROJECT_DIR$/2의 제곱수 계산하기/input.txt" />
         <option value="$PROJECT_DIR$/2의 제곱수 계산하기/19946.py" />
+        <option value="$PROJECT_DIR$/1로 만들기/1463.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="width" value="980" />
+    <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -133,7 +134,7 @@
             <path>
               <item name="algo_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo_study" type="462c0819:PsiDirectoryNode" />
-              <item name="2의 제곱수 계산하기" type="462c0819:PsiDirectoryNode" />
+              <item name="1로 만들기" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.19946">
+  <component name="RunManager" selected="Python.1463">
     <configuration name="1463" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,8 +274,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.19946" />
         <item itemvalue="Python.1463" />
+        <item itemvalue="Python.19946" />
         <item itemvalue="Python.1699" />
         <item itemvalue="Python.2579" />
         <item itemvalue="Python.1904" />
@@ -295,14 +296,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="784" height="832" extended-state="0" />
+    <frame x="-8" y="0" width="783" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17536815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17560321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3252149" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3252149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,17 +439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1로 만들기/1463.py">
+    <entry file="file://$PROJECT_DIR$/2의 제곱수 계산하기/19946.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1로 만들기/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="144">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -458,10 +453,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2의 제곱수 계산하기/19946.py">
+    <entry file="file://$PROJECT_DIR$/파스칼의 삼각형/16395.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="304">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1로 만들기/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1로 만들기/1463.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>

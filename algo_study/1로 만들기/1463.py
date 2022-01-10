@@ -9,16 +9,16 @@ dp[1] = 1
 dp[2] = 1
 dp[3] = 1
 
-# -1로 뺏을 때 가장 많은 경우의 수가 나옴
+
+# -1로 뺏을 경우가 가장 경우의 수가 많음
 for k in range(4, n+10):
-    dp[k] = k-1
-print(dp)
+    dp[k] = k - 1
+# print(dp)
 
 for i in range(4, n+10):
-    if i % 3 == 0 or i % 2:
-        # 6      i,j
-        while True:
-            dp[i] = dp[3]
+    pass
+
+# print(6 // 3)
 
 
 """
