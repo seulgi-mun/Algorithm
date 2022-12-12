@@ -3,11 +3,13 @@ sys.stdin = open('input.txt')
 
 input = sys.stdin.readline
 n = int(input())
-num = []
+num = [0] * 10001
+
 for _ in range(n):
     x = int(input())
-    num.append(x)
-num.sort()
+    num[x] += 1
 
-for i in num:
-    print(i)
+for i in range(10001):
+    if num[i] != 0:
+        for j in range(num[i]):
+            print(i)
