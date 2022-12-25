@@ -3,38 +3,60 @@ sys.stdin = open('input.txt')
 sys.setrecursionlimit(99999)
 from collections import deque
 
-dx = [1, 2, 2, 1, -1, -1, -2, -2]
-dy = [2, 1, -1, -2, 2, -2, 1, -1]
 
-def bfs(x, y, g_x, g_y):
+dx = [-2, -1, 1, 2, 2, 1, -1, -2]
+dy = [-1, -2, -2, -1, 1, 2, 2, 1]
+
+def bfs(x, y, s, e):
     global cnt
     q = deque()
-    q.append((x, y))
-
+    q.append([x, y])
     visited[x][y] = 1
 
     while q:
-        s, e = q.popleft()
+        size = len(q)
 
-        if s == g_x and e == g_y:
-            print(visited[g_x][g_y] - 1)
-            return
+        for _ in range(size):
+            t = q.popleft()
+            xx = t[0]
+            yy = t[1]
 
-        for k in range(8):
-            nx = dx[k] + s
-            ny = dy[k] + e
-            # print(nx, ny, 'ddd')
+            if xx == s and yy == e:
+                # print(xx)
+                visited[xx][yy] = 1
+                return cnt
 
-            if 0 <= nx < l and 0 <= ny < l and  visited[nx][ny] == 0:
-                q.append([nx, ny])
-                visited[nx][ny] = visited[s][e] + 1
+            for k in range(8):
+                nx = xx + dx[k]
+                ny = yy + dy[k]
+
+                if 0 <= nx < length and 0 <= ny < length and visited[nx][ny] == 0:
+                    visited[nx][ny] = 1
+                    q.append([nx, ny])
+                    # pprint(visited)
+        cnt += 1
+
+    return cnt
 
 
 t = int(input())
 
 for _ in range(t):
-    l = int(input())
+    length = int(input())
     now_x, now_y = map(int, input().split())
     go_x, go_y = map(int, input().split())
-    visited = [[0] * l for _ in range(l)]
-    bfs(now_x, now_y, go_x, go_y)
+    # print(length)
+
+    chess = [[0] * length for _ in range(length)]
+    # chess[now_x][now_y] = 1
+    # chess[go_x][go_y] = 2
+    visited = [[0] * length for _ in range(length)]
+
+    cnt = 0
+    print(bfs(now_x, now_y, go_x, go_y))
+    # res = 0
+    # for i in range(length):
+    #     for j in range(length):
+    #         if chess[i][j] == 1:
+    #             res = bfs(i, j, go_x, go_y)
+    # print(res)
