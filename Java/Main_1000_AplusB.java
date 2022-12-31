@@ -8,8 +8,7 @@ public class Main_1000_AplusB {
 		int a = input.nextInt();
 		int b = input.nextInt();
 		System.out.println(a+b);
-		
-		input.close();
+//		input.close(); 
 	}
 
 }
