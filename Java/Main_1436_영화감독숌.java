@@ -9,7 +9,7 @@ public class Main_1436_영화감독숌 {
 		int i = 0;
 		int cnt = 0;
 		int num = 0;
-		ArrayList tmp = new ArrayList();
+		ArrayList<Integer> tmp = new ArrayList<Integer>();
 		
 //		System.out.println(n);
 		
