@@ -10,6 +10,7 @@ public class Main_1008_AdivideB {
 		double b = input.nextDouble();
 		
 		System.out.println(a/b);
+		input.close();
 	}
 
 }

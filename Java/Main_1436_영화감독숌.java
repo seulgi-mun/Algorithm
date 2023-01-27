@@ -29,7 +29,7 @@ public class Main_1436_영화감독숌 {
 			i++;
 		}
 		System.out.println(tmp.get(n-1));
-//		n.close();
+		in.close();
 	}
 
 }

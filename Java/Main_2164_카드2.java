@@ -21,7 +21,7 @@ public class Main_2164_카드2 {
 			q.add(q.poll());
 		}
 //		System.out.println(q);
-
+		in.close();
 	}
 
 }
