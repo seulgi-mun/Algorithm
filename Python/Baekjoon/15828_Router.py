@@ -25,5 +25,3 @@ if q:
     print(*q)
 else:
     print('empty')
-
-    # print(info)
