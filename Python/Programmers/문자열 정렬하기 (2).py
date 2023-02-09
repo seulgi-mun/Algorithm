@@ -1,0 +1,8 @@
+def solution(my_string):
+    answer = ''
+
+    for i in my_string:
+        answer += i.lower()
+
+    tmp = sorted(answer)
+    return ''.join(tmp)
