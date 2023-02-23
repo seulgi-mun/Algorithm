@@ -24,4 +24,5 @@ def solution(keyinput, board):
                 1] // 2:
                 answer[1] = answer[1] - 1
     print(board[0] // 2 + 1)
+    print(board[0] // 2 + 1)
     return answer
