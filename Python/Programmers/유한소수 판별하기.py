@@ -5,18 +5,17 @@ def solution(a, b):
     answer = 0
 
     div = Fraction(a, b)
-    down = div.denominator
+    b = div.denominator
 
-    while True:
-        if down == 0:
-            answer = 1
-            break
+    while b % 2 == 0:
+        b = b // 2
 
-        if down % 2 == 0:
-            down = down // 2
-        elif down % 5 == 0:
-            down = down // 2
-        else:
-            answer = 2
+    while b % 5 == 0:
+        b = b // 5
+
+    if b == 1:
+        answer = 1
+    else:
+        answer = 2
 
     return answer
