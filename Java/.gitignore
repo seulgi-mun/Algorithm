@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,eclipse,python,java,pycharm
 
 ### Eclipse ###
-.metadata
+../.metadata
 bin/
 tmp/
 *.tmp
