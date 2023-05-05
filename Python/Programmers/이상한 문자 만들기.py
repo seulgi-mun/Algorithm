@@ -1,13 +1,15 @@
 def solution(s):
-    s = s.split()
+    s = s.split(' ')
     # print(s)
     answer = ''
 
-    for i in s:
-        for j in range(len(i)):
+    for i in range(len(s)):
+        for j in range(len(s[i])):
             if j % 2 == 0:
-                answer += i[j].upper()
+                answer += s[i][j].upper()
             else:
-                answer += i[j].lower()
-        answer += ' '
+                answer += s[i][j].lower()
+        if i != len(s) - 1:
+            answer += ' '
+
     return answer
